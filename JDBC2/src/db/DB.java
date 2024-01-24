@@ -19,7 +19,7 @@ public class DB {
             conn = DriverManager.getConnection(url, props);
         }
         catch (SQLException e){
-            throw new db.DbException(e.getMessage());
+            throw new DbException(e.getMessage());
         }
     }
     return conn;

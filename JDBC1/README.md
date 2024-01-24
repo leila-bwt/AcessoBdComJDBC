@@ -47,12 +47,18 @@ Script SQL: material de apoio ou https://github.com/acenelio/demo-dao-jdbc/blob/
 Código fonte: https://github.com/acenelio/jdbc2
 
 *API:*
-* Statement
-* ResultSet
-      o first() [move para posição 1, se houver]
-      o beforeFirst() [move para posição 0]
-      o next() [move para o próximo, retorna false se já estiver no último]
-      o absolute(int) [move para a posição dada, lembrando que dados reais começam em 1]
+
+**Statement**
+
+**ResultSet**
+
+* first() [move *b para posição 1, se houver],
+
+* beforeFirst() [move para posição 0],
+
+* next() [move para o próximo, retorna false se já estiver no último],
+
+* absolute(int) [move para a posição dada, lembrando que dados reais começam em 1].
 
 *Checklist:*
 * Usar o script SQL para criar a base de dados "coursejdbc"

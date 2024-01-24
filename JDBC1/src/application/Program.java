@@ -8,7 +8,7 @@ public class Program {
 
     public static void main(String[]args){
 
-        Connection conn = DB.getConnection();
+        Connection conn = db.DB.getConnection();
         DB.closeConnection();
     }
     
