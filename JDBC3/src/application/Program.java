@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 import db.DB;
 
-public class Program2 {
+public class Program {
 
     public static void main(String[]args){
 
@@ -28,11 +28,6 @@ public class Program2 {
         }
         catch (SQLException e){
             e.printStackTrace();
-        }
-        finally{
-            DB.closeResultSet(rs);
-            DB.closeStatement(st);
-            DB.closeConnection(); //  liberar recursos e evitar vazamentos de memória
         }
     }
     
